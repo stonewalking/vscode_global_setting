@@ -1,0 +1,100 @@
+{
+    "files.autoSave": "afterDelay",
+    "github.copilot.editor.enableAutoCompletions": true,
+    "files.autoSaveDelay": 0.0001,
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "chat.mcp.gallery.enabled": true,
+    "chat.unifiedAgentsBar.enabled": true,
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-5-mini",
+    "githubPullRequests.remotes": [
+    "origin",
+    "original_upstream"],
+    "window.zoomLevel": -1,
+    "window.newWindowProfile": "Default",
+    "editor.hover.delay": 100,
+    "debug.inlineValues": "on",
+    "debug.showVariableTypes": true,
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "chat.remoteAgentHosts": [],
+    "remote.SSH.remotePlatform": {
+        "ventotene": "linux",
+        "mallard": "linux"
+    },
+    "files.exclude": {
+        "**/__pycache__/**": true,
+        "**/.idea": true,
+        "**/.junie": true
+    },
+    "workbench.editorAssociations": {
+        "*.md": "vscode.markdown.preview.editor"
+    },
+    "gitlens.gitCommands.skipConfirmations": [
+        "fetch:command",
+        "stash-push:command",
+        "switch:command"
+    ],
+    "chatgpt.reviewDelivery": "inline",
+    "workbench.activityBar.compact": true,
+    "git.enableSmartCommit": true,
+    "gitlens.views.scm.grouped.views": {
+        "commits": true,
+        "branches": false,
+        "remotes": true,
+        "stashes": true,
+        "tags": true,
+        "worktrees": true,
+        "contributors": true,
+        "fileHistory": false,
+        "repositories": true,
+        "searchAndCompare": false,
+        "launchpad": true
+    },
+    "yaml.disableSchemaDetection": [],
+    "geminicodeassist.displayInlineContextHint": false,
+    "@azure.argTenant": "",
+    "chat.hookFilesLocations": {
+        ".github/hooks": true,
+        ".claude/settings.local.json": true,
+        ".claude/settings.json": true,
+        "~/.copilot/hooks": true,
+        "~/.claude/settings.json": true,
+        "~/.agents/hooks": true
+    },
+    "redhat.telemetry.enabled": false,
+    "[python]": {
+
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.defaultColorDecorators": "never",
+        "gitlens.codeLens.symbolScopes": [
+            "!Module"
+        ],
+        "editor.formatOnType": true,
+        "editor.wordBasedSuggestions": "off"
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontWeight": "normal",
+    "claudeCode.preferredLocation": "panel",
+    "explorer.compactFolders": false,
+    "editor.minimap.enabled": false,
+    "gitlens.views.worktrees.branches.layout": "list",
+    "gitlens.views.branches.showRemoteBranches": true,
+    "gitlens.views.branches.showStashes": true,
+    "debug.breakpointsView.presentation": "tree",
+    "workbench.colorTheme": "GitHub Dark",
+    "chat.fontSize": 12,
+    "scm.inputFontSize": 12,
+    "workbench.editor.useModal": "some",
+    "gitlens.views.remotes.branches.layout": "list",
+    "diffEditor.renderSideBySide": true,
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "[yaml]": {
+        "diffEditor.ignoreTrimWhitespace": false
+    },
+    "diffEditor.experimental.showMoves": true,
+    "workbench.editor.editorActionsLocation": "titleBar",
+    "workbench.experimental.share.enabled": true,
+    "debug.toolBarLocation": "commandCenter",
+    "markdown.preview.fontSize": 12,
+}
