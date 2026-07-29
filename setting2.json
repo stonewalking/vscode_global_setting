@@ -11,7 +11,11 @@
     "workbench.tree.indent": 18,
     "workbench.tree.renderIndentGuides": "always",
     "workbench.colorCustomizations": {
-        "tree.indentGuidesStroke": "#555555"
+        "tree.indentGuidesStroke": "#555555",
+        "editor.wordHighlightBackground": "#4A454066",
+        "editor.wordHighlightStrongBackground": "#4A454066",
+        "editor.wordHighlightBorder": "#00000000",
+        "editor.wordHighlightStrongBorder": "#00000000"
     },
     "githubPullRequests.remotes": [
     "origin",
