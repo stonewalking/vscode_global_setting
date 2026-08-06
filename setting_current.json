@@ -11,8 +11,8 @@
     "workbench.tree.indent": 18,
     "workbench.tree.renderIndentGuides": "always",
     "workbench.colorCustomizations": {
-        "tree.indentGuidesStroke": "#555555",
-        "editor.wordHighlightBackground": "#4A454066",
+        "tree.indentGuidesStroke": "#443636",
+        "editor.wordHighlightBackground": "#504f4e66",
         "editor.wordHighlightStrongBackground": "#4A454066",
         "editor.wordHighlightBorder": "#00000000",
         "editor.wordHighlightStrongBorder": "#00000000"
@@ -34,9 +34,11 @@
         "mallard": "linux"
     },
     "files.exclude": {
-        "**/__pycache__/**": true,
+        "**/__pycache__": true,
         "**/.idea": true,
-        "**/.junie": true
+        "**/.junie": true,
+        "**/.vscode": true,
+        "**/.claude": true
     },
     "workbench.editorAssociations": {
         "*.md": "vscode.markdown.preview.editor"
@@ -110,7 +112,7 @@
         "reportMissingImports": "none",
         "reportMissingModuleSource": "none"
     },
-    "gitlens.views.commitDetails.files.layout": "list",
+    "gitlens.views.commitDetails.files.layout": "tree",
     "vs-kubernetes": {
         "vscode-kubernetes.kubectl-path-linux": "/home/tong/.local/state/vs-kubernetes/tools/kubectl/kubectl",
         "vscode-kubernetes.helm-path-linux": "/home/tong/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm",
