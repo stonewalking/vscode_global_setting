@@ -5,17 +5,22 @@
     "github.copilot.nextEditSuggestions.enabled": true,
     "chat.mcp.gallery.enabled": true,
     "chat.unifiedAgentsBar.enabled": true,
-    "gitlens.ai.model": "vscode",
-    "gitlens.ai.vscode.model": "copilot:gpt-5-mini",
     "window.nativeTabs": true,
+    "workbench.editor.wrapTabs": true,
     "workbench.tree.indent": 18,
     "workbench.tree.renderIndentGuides": "always",
+    "workbench.editor.revealIfOpen": true,
     "workbench.colorCustomizations": {
         "tree.indentGuidesStroke": "#443636",
         "editor.wordHighlightBackground": "#504f4e66",
         "editor.wordHighlightStrongBackground": "#4A454066",
         "editor.wordHighlightBorder": "#00000000",
-        "editor.wordHighlightStrongBorder": "#00000000"
+        "editor.wordHighlightStrongBorder": "#00000000",
+        "tab.activeBackground": "#3a3a3a",
+        "tab.activeForeground": "#ffffff",
+        "tab.activeBorderTop": "#ffffff",
+        "tab.inactiveBackground": "#1f1f1f",
+        "tab.inactiveForeground": "#8a8a8a"
     },
     "githubPullRequests.remotes": [
     "origin",
@@ -35,10 +40,11 @@
     },
     "files.exclude": {
         "**/__pycache__": true,
+        "**/.claude": true,
         "**/.idea": true,
         "**/.junie": true,
-        "**/.vscode": true,
-        "**/.claude": true
+        "**/.mcp.json": true,
+        "**/.vscode": true
     },
     "workbench.editorAssociations": {
         "*.md": "vscode.markdown.preview.editor"
@@ -54,7 +60,7 @@
     "gitlens.views.scm.grouped.views": {
         "commits": true,
         "branches": false,
-        "remotes": true,
+        "remotes": false,
         "stashes": true,
         "tags": true,
         "worktrees": true,
@@ -89,7 +95,6 @@
     "claudeCode.preferredLocation": "panel",
     "explorer.compactFolders": false,
     "editor.minimap.enabled": false,
-    "gitlens.views.worktrees.branches.layout": "list",
     "gitlens.views.branches.showRemoteBranches": true,
     "gitlens.views.branches.showStashes": true,
     "debug.breakpointsView.presentation": "tree",
@@ -104,7 +109,6 @@
     },
     "diffEditor.experimental.showMoves": true,
     "workbench.experimental.share.enabled": true,
-    "debug.toolBarLocation": "commandCenter",
     "markdown.preview.fontSize": 12,
     "window.density.editorTabHeight": "compact",
     "python.analysis.diagnosticSeverityOverrides": {
@@ -120,8 +124,6 @@
     },
     "workbench.editor.editorActionsLocation": "titleBar",
     "git.allowForcePush": true,
-    "gitlens.views.branches.branches.layout": "list",
-    "workbench.colorTheme": "GitHub Dark",
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -141,5 +143,12 @@
                 "selfParameter": "#9876AA",
             }
         }
-    }
+    },
+    "workbench.colorTheme": "GitHub Dark",
+    "gitlens.graph.details.location": "auto",
+    "gitlens.views.worktrees.branches.layout": "list",
+    "agents.voice.language": "zh",
+    "window.density.layout": "compact",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "claudeCode.hideOnboarding": true
 }
