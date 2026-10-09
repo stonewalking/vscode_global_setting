@@ -27,7 +27,6 @@
     "original_upstream"],
     "window.zoomLevel": -1,
     "window.newWindowProfile": "Default",
-    "editor.hover.sticky": false,
     "editor.hover.delay": 100,
     "debug.inlineValues": "on",
     "debug.showVariableTypes": true,
@@ -54,6 +53,9 @@
         "stash-push:command",
         "switch:command"
     ],
+    "files.readonlyInclude": {
+        "**/site-packages/**": true
+    },
     "chatgpt.reviewDelivery": "inline",
     "workbench.activityBar.compact": true,
     "git.enableSmartCommit": true,
@@ -144,11 +146,11 @@
             }
         }
     },
-    "workbench.colorTheme": "GitHub Dark",
     "gitlens.graph.details.location": "auto",
     "gitlens.views.worktrees.branches.layout": "list",
     "agents.voice.language": "zh",
     "window.density.layout": "compact",
     "diffEditor.ignoreTrimWhitespace": false,
-    "claudeCode.hideOnboarding": true
+    "claudeCode.hideOnboarding": true,
+    "workbench.colorTheme": "GitHub Dark"
 }
